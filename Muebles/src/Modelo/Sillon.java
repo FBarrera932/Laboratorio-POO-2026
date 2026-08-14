@@ -1,6 +1,6 @@
 package Modelo;
 
-public class Sillon extends Mueblededescanso{
+public class Sillon extends Dedescanso{
 
 	public Sillon(float posicionX, float posicionY, float posicionZ, Nombre nombre, float vida, float temperatura,
 			Estado estado, float suciedad) {

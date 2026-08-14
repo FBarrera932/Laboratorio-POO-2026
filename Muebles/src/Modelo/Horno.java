@@ -1,6 +1,6 @@
 package Modelo;
 
-public class Horno extends Muebledecocina{
+public class Horno extends Decocina{
 
 	public Horno(float posicionX, float posicionY, float posicionZ, Nombre nombre, float vida, int cantidadPersonas,
 			float temperatura, Estado estado, float suciedad) {
@@ -15,5 +15,7 @@ public class Horno extends Muebledecocina{
 			return false;
 		}
 	}
+	
+	
 	
 }

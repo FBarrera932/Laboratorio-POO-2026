@@ -26,19 +26,32 @@ public abstract class  Mueble {
 	} 
 	
 	
-	
-	
-	
-	
-	public void usarMueble() {
-		System.out.println("Usando...");
+	public boolean usarMueble() {
+		setEstado(Estado.USANDO);
+		return true;
 	}
 	
-	public void moverMueble() {
-		System.out.println("Moviendo...");
+	public boolean moverMuebleenX() {
+		setEstado(Estado.MOVIENDO);
+	// como mover el mueble en distintas direcciones????!!!
+		return true;
 	}
-	public void ensuciarMueble() {
-		System.out.println("Ensuciando...");
+	public boolean moverMuebleenY() {
+		setEstado(Estado.MOVIENDO);
+		
+		return true;
+	}
+	
+	public boolean moverMuebleenZ() {
+		setEstado(Estado.MOVIENDO);
+		
+		return true;
+	}
+	
+	public boolean ensuciarMueble() {
+		setEstado(Estado.COCHINO);
+		return true;
+		
 	}
 
 	

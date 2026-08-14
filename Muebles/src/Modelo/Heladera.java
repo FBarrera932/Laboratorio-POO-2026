@@ -1,6 +1,6 @@
 package Modelo;
 
-public class Heladera extends Muebledecocina{
+public class Heladera extends Decocina{
 
 	public Heladera(float posicionX, float posicionY, float posicionZ, Nombre nombre, float vida, int cantidadPersonas,
 			float temperatura, Estado estado, float suciedad) {
