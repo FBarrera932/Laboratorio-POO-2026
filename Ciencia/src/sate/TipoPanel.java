@@ -1,0 +1,10 @@
+package sate;
+
+public enum TipoPanel {
+ANTIPARALELO,
+BIORESPANSIVAS,
+PSEUDOTRANSFERENCIA,
+MAGNETICATEJIDA,
+
+
+}
